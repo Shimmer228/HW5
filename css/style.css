@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	font-family: Inter;
+}
+.page-header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.main-navigation{
+	text-align: center;
+	margin:auto;
+	width: 1000px;
+	vertical-align: top;
+	place-items: center;
+	
+}
+
+
+/* .main-menu{
+	display: inline;
+	text-align: center;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	place-items: center;
+} */
+.main-menu{
+	display: flex;
+	padding: 10px 0px;
+	justify-content: center;
+	align-items: center;
+	gap: 72px;
+}
+
+.main-menu-item{
+	list-style: none;
+	margin: auto;
+	color: #000;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 135%;
+}
+
+.main-menu-link{
+	display: inline;
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+
+.CSS-picture{
+	width: 100%;
+}
+.CSS-title{
+	color: #000;
+	text-align: center;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 135%;
+}
+.main-text-section{
+	text-align:left;
+	width: 856px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.CSS-text-paragraph{
+	color: #161616;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 150%;
+	font-weight: bold;
+}
+.special-style{
+	color: #04959E;
+	font-weight: 600;
+}
+.CSS-list-item{
+	color: #161616;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+.LM-Button-Container{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.LM-button {
+	background-color: #04959E; /* Задайте бажаний колір кнопки */
+	color: #FFF;
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 135%;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  footer {
+	text-align: center;
+	margin-top: 20px; /* Відстань між лінією і текстом в футері */
+  }
+  
+  .footer-line {
+	height: 1px;
+	background-color: #000000;
+	margin: 10px 0;
+  }
+  .footer-text {
+	font-size: 18px; 
+  }
